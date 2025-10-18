@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Administrator</title>
+    <link href="~/DashBoard_sb/css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <style>
+        /* Custom styles with pastel purple as primary color */
+        .navbar {
+            background-color: #E6E6FA; /* Light pastel purple background */
+            border-bottom: 1px solid #D8BFD8; /* Pastel purple border */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #9370DB; /* Darker pastel purple for brand */
+        }
+
+        .nav-link {
+            color: #9370DB !important; /* Darker pastel purple for links */
+        }
+
+        .navbar-toggler {
+            border-color: #9370DB; /* Purple border for toggler */
+        }
+
+        .sb-sidenav-dark {
+            background-color: #E6E6FA; /* Light pastel purple background */
+        }
+
+        .sb-sidenav-menu .nav-link {
+            font-weight: 500;
+            color: #9370DB; /* Darker pastel purple for links */
+        }
+
+            .sb-sidenav-menu .nav-link:hover {
+                background-color: #D8BFD8; /* Pastel purple hover effect */
+            }
+
+        .sb-sidenav-footer {
+            background-color: #E6E6FA; /* Light pastel purple background */
+            color: #9370DB; /* Darker pastel purple for text */
+        }
+
+        .btn-primary {
+            background-color: #D8BFD8; /* Primary button color */
+            border-color: #D8BFD8;
+        }
+
+        .btn-secondary {
+            background-color: #9370DB; /* Secondary button color */
+            border-color: #9370DB;
+        }
+
+        .page-link {
+            color: #9370DB !important; /* Màu chữ tím cho các liên kết trang */
+        }
+
+        .page-item.active .page-link {
+            background-color: #9370DB !important; /* Màu nền tím cho trang hiện tại */
+            color: white !important; /* Màu chữ trắng cho trang hiện tại */
+            border-color: #9370DB;
+        }
+        /* Container cho search box */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+            /* Input cho search */
+            .search-container input[type="text"] {
+                width: 250px; /* Độ rộng của input */
+                padding: 10px 15px;
+                border: 1px solid #9370DB; /* Màu biên tím nhạt */
+                border-radius: 50px 0 0 50px; /* Bo góc trái */
+                outline: none;
+                color: #4B0082; /* Màu chữ tím sẫm */
+                font-size: 16px;
+                transition: border-color 0.3s, box-shadow 0.3s;
+            }
+
+                /* Placeholder style */
+                .search-container input[type="text"]::placeholder {
+                    color: #9370DB; /* Màu chữ placeholder tím nhạt */
+                    opacity: 0.8;
+                }
+
+            /* Button cho search */
+            .search-container button {
+                padding: 10px 15px;
+                background-color: #9370DB; /* Nền tím */
+                color: white; /* Màu chữ trắng */
+                border: 1px solid #9370DB; /* Biên cùng màu với nền */
+                border-radius: 0 50px 50px 0; /* Bo góc phải */
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.3s, border-color 0.3s;
+            }
+
+            /* Hover cho input */
+            .search-container input[type="text"]:focus {
+                border-color: #8A2BE2; /* Màu biên khi focus */
+                box-shadow: 0 0 5px #8A2BE2; /* Hiệu ứng shadow khi focus */
+            }
+
+            /* Hover cho button */
+            .search-container button:hover {
+                background-color: #8A2BE2; /* Màu nền khi hover */
+                border-color: #8A2BE2; /* Biên cùng màu khi hover */
+            }
+
+        footer.bg-light {
+            background-color: #E6E6FA !important; /* Light pastel purple background */
+        }
+
+        footer .text-muted {
+            color: #9370DB !important; /* Darker pastel purple for text */
+        }
+    </style>
+</head>
+<body>
+    <nav class="sb-topnav navbar navbar-expand navbar-light">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" asp-controller="Admin" asp-action="Index">Administrator</a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+        </form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                            <button type="submit" class="nav-link btn btn-link text-dark">Cài đặt</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Users", "Admin", new { area = "Admin" })">
+                            <button type="submit" class="nav-link btn btn-link text-dark">Quản lý người dùng</button>
+                        </a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                        <form class="dropdown-item" id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="nav-link btn btn-link text-dark">Thoát</button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading text-dark">Core</div>
+                        <a class="nav-link" asp-controller="Admin" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt text-dark"></i></div>
+                            Trang chính
+                        </a>
+                        <div class="sb-sidenav-menu-heading text-dark">Interface</div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open text-dark"></i></div>
+                            Trang
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down text-dark"></i></div>
+                        </a>
+                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                    Danh mục
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down text-dark"></i></div>
+                                </a>
+                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Thực phẩm">Thực phẩm</a>
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Nội thất">Nội thất</a>
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Phương tiện">Phương tiện</a>
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Áo quần">Áo quần</a>
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Mỹ phẩm">Mỹ phẩm</a>
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Sách">Sách</a>
+                                        <a class="nav-link" asp-controller="Admin" asp-action="productsByCategories" asp-route-category="Chưa phân loại">Chưa phân loại</a>
+                                    </nav>
+                                </div>
+                                <a class="nav-link" href="@Url.Action("Users", "Admin", new { area = "Admin" })">
+                                    Quản lý người dùng
+                                </a>
+                                <a class="nav-link" asp-controller="Admin" asp-action="ActionHistory">
+                                    Lịch sử thao tác
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Logged in as:</div>
+                    Administrator
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    @RenderBody()
+                </div>
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; Nhom_6 2024</div>
+                        <div>
+                            <a href="#">Privacy Policy</a>
+                            &middot;
+                            <a href="#">Terms &amp; Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="~/DashBoard_sb/js/scripts.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

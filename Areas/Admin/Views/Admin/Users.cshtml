@@ -1,0 +1,110 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<ApplicationUser>
+
+@inject UserManager<ApplicationUser> UserManager
+@inject RoleManager<IdentityRole> RoleManager
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Quyền</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            var isAdmin = UserManager.IsInRoleAsync(user, "Admin").Result;
+
+            if (!isAdmin)
+            {
+                <tr>
+                    <td id="email_@user.Id">@user.Email</td>
+                    <td>
+                        @{
+                            var roles = UserManager.GetRolesAsync(user).Result;
+                            @string.Join(", ", roles)
+                        }
+                    </td>
+                    <td>
+                        <select id="roleDropdown_@user.Id">
+                            @foreach (var role in RoleManager.Roles)
+                            {
+                                <option value="@role.Id">@role.Name</option>
+                            }
+                        </select>
+                        <hr />
+                        <form asp-action="EditRole" method="post" id="editRoleForm_@user.Id">
+                            <input type="hidden" id="emailHidden_@user.Id" name="email" value="@user.Email" />
+                            <input type="hidden" id="selectedRoleHidden_@user.Id" name="selectedRoleName" value="" />
+                            <a class="btn btn-outline-dark" onclick="updateRole('@user.Id')">Cập nhật</a>
+                        </form>
+                        <hr/>
+                        <form asp-action="LockUser" method="post" id="lockUser_@user.Id">
+                            <div class="form-group">
+                                <input type="hidden" id="emailHidden_lock_@user.Id" name="email" value="@user.Email" />
+                                <button type="button" class="btn btn-outline-danger" onclick="lockUser('@user.Id')">Khóa User</button>
+                            </div>
+                        </form>
+                        <hr/>
+                        <form asp-action="UnlockUser" method="post" id="unlockUser_@user.Id">
+                            <div class="form-group">
+                                <input type="hidden" id="emailHidden_unlock_@user.Id" name="email" value="@user.Email" />
+                                <button type="button" class="btn btn-outline-warning" onclick="unlockUser('@user.Id')">Mở khóa User</button>
+                            </div>
+                        </form>
+
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function updateRole(userId) {
+            var selectedRole = $('#roleDropdown_' + userId).val();
+            var email = $('#email_' + userId).text();
+
+            $('#selectedRoleHidden_' + userId).val(selectedRole);
+
+            var isAdmin = @(User.IsInRole("Admin") ? "true" : "false");
+            if (isAdmin) {
+                $('#editRoleForm_' + userId).submit();
+            } else {
+                alert("You don't have permission to perform this action.");
+            }
+        }
+
+        function lockUser(userId) {
+            var email = $('#emailHidden_lock_' + userId).val();
+            $('#emailHidden_lock').val(email);
+
+            $.post($('#lockUser_' + userId).attr('action'), $('#lockUser_' + userId).serialize())
+                .done(function (data) {
+                    alert('Lock user successfully.');
+                    location.reload();  // Refresh trang để cập nhật dữ liệu
+                })
+                .fail(function (error) {
+                    alert('Lock user failed.');
+                });
+        }
+        function unlockUser(userId) {
+            var email = $('#emailHidden_unlock_' + userId).val();
+            $('#emailHidden_unlock').val(email);
+
+            $.post($('#unlockUser_' + userId).attr('action'), $('#unlockUser_' + userId).serialize())
+                .done(function (data) {
+                    alert('Unlock user successfully.');
+                    location.reload();  // Refresh trang để cập nhật dữ liệu
+                })
+                .fail(function (error) {
+                    alert('Unlock user failed.');
+                });
+        }
+
+    </script>
+}

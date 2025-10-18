@@ -1,0 +1,18 @@
+﻿@model WebQuanLySanPhamKhoHang.Models.Product
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Employee/Views/Shared/_LayoutEmployee.cshtml";
+}
+
+<h2>Xóa mặt hàng</h2>
+<td>
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <p>Bạn có chắc muốn xóa? @Model.Name?</p>
+        <button type="submit" class="btn btn-danger">Xóa</button>
+    </form>
+
+    <a asp-action="Index">
+        <button type="submit" class="btn btn-warning">Quay về</button>
+    </a>
+</td>

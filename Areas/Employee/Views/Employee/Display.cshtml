@@ -1,0 +1,26 @@
+﻿@model WebQuanLySanPhamKhoHang.Models.Product
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Areas/Employee/Views/Shared/_LayoutEmployee.cshtml";
+}
+
+<h2>@Model.Name</h2>
+<div>
+    <p>Mã: @Model.Id</p>
+    <p>Giá: @Model.Price</p>
+    <p>Số lượng: @Model.Quantity</p>
+    <p>Loại: @Model.Category.Name</p>
+    <p>Ngày nhập kho: @Model.DateIn</p>
+    <p>Ngày sản xuất: @Model.MFG</p>
+    <p>Hạn sử dụng: @Model.EXP</p>
+    <p>Mô tả: @Model.Description</p>
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <img src="@Model.ImageUrl" alt="Product Image" style="max-width:200px;" />
+    }
+</div>
+<div>
+    <a asp-action="Index">
+        <button type="submit" class="btn btn-danger">Quay về</button>
+    </a>
+</div>

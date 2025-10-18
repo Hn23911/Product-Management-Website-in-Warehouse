@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebQuanLySanPhamKhoHang.Models.Category>
+
+@{
+    ViewData["Title"] = "Index_C";
+    Layout = "~/Areas/Employee/Views/Shared/_LayoutEmployee.cshtml";
+}
+<link href="~/css/general.css" rel="stylesheet" />
+<h1>Danh mục</h1>
+
+<div class="button-container">
+    <a asp-action="Add">
+        <button type="submit" class="btn btn-outline-primary">Thêm danh mục</button>
+    </a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên danh mục
+            </th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>
+                    @category.Name
+                </td>
+                <td>
+                    <div class="button-container">
+                        <a asp-action="Update" asp-route-id="@category.Id">
+                            <button type="submit" class="btn btn-warning">Sửa</button>
+                        </a>
+
+                        <a asp-action="Delete" asp-route-id="@category.Id">
+                            <button type="submit" class="btn btn-danger">Xóa</button>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

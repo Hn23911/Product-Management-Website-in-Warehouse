@@ -1,0 +1,30 @@
+﻿@model WebQuanLySanPhamKhoHang.Models.Category
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Update_C";
+    Layout = "~/Areas/Employee/Views/Shared/_LayoutEmployee.cshtml";
+}
+<link rel="stylesheet" href="~/css/general.css" />
+
+<h1>Sửa danh mục</h1>
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name">Tên danh mục</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="button-container">
+        <button type="submit" value="Save" class="btn btn-primary">Cập nhật</button>
+
+        <a asp-controller="Category" asp-action="Index">
+            <button type="submit" class="btn btn-danger">Quay về</button>
+        </a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

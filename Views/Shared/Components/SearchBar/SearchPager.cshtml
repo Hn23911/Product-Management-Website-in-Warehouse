@@ -1,0 +1,42 @@
+﻿@using WebQuanLySanPhamKhoHang.Views.Shared.Components.SearchBar
+@model SPager
+@{
+    SPager pager = new SPager();
+    int pageNo = 0;
+    if (ViewBag.SearchPager != null)
+    {
+        pager = ViewBag.SearchPager;
+        pageNo = pager.CurrentPage;
+    }
+}
+
+<!-- Form tìm kiếm -->
+<div class="search-container">
+    <form asp-controller="@Model.Controller" asp-action="@Model.Action" method="get">
+        <input type="text" name="SearchText" value="@Model.SearchText" placeholder="Tìm kiếm...">
+        <button type="submit">Tìm</button>
+    </form>
+</div>
+
+<!-- Phân trang -->
+<div>
+    @if (pager.TotalPages > 0)
+    {
+        <ul class="pagination justify-content-end">
+            @for (var pg = pager.StartPage; pg <= pager.EndPage; pg++)
+            {
+                <li class="page-item @(pg == pager.CurrentPage ? "active" : "")">
+                    <a class="page-link"
+                       asp-controller="@Model.Controller"
+                       asp-action="@Model.Action"
+                       asp-route-pg="@pg"
+                       asp-route-category="@Model.Category"
+                       asp-route-SearchText="@Model.SearchText"
+                       asp-route-sortOrder="@Model.Sort">
+                        @pg
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>

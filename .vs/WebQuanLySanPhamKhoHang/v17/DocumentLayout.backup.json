@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F50221A1-CADD-412D-B651-731D945074EB}|WebQuanLySanPhamKhoHang.csproj|k:\\brr\\dacs\\webquanlysanphamkhohang\\areas\\employee\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50221A1-CADD-412D-B651-731D945074EB}|WebQuanLySanPhamKhoHang.csproj|solutionrelative:areas\\employee\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F50221A1-CADD-412D-B651-731D945074EB}|WebQuanLySanPhamKhoHang.csproj|k:\\brr\\dacs\\webquanlysanphamkhohang\\areas\\employee\\views\\shared\\_layoutemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50221A1-CADD-412D-B651-731D945074EB}|WebQuanLySanPhamKhoHang.csproj|solutionrelative:areas\\employee\\views\\shared\\_layoutemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F50221A1-CADD-412D-B651-731D945074EB}|WebQuanLySanPhamKhoHang.csproj|k:\\brr\\dacs\\webquanlysanphamkhohang\\views\\shared\\components\\listcategory\\listcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50221A1-CADD-412D-B651-731D945074EB}|WebQuanLySanPhamKhoHang.csproj|solutionrelative:views\\shared\\components\\listcategory\\listcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\Areas\\Employee\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Employee\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\Areas\\Employee\\Views\\Employee\\Index.cshtml*",
+              "RelativeToolTip": "Areas\\Employee\\Views\\Employee\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T20:28:58.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "listCategory.cshtml",
+              "DocumentMoniker": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\Views\\Shared\\Components\\listCategory\\listCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\listCategory\\listCategory.cshtml",
+              "ToolTip": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\Views\\Shared\\Components\\listCategory\\listCategory.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\listCategory\\listCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T19:19:21.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutEmployee.cshtml",
+              "DocumentMoniker": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\Areas\\Employee\\Views\\Shared\\_LayoutEmployee.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Employee\\Views\\Shared\\_LayoutEmployee.cshtml",
+              "ToolTip": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\Areas\\Employee\\Views\\Shared\\_LayoutEmployee.cshtml",
+              "RelativeToolTip": "Areas\\Employee\\Views\\Shared\\_LayoutEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T18:43:18.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

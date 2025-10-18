@@ -1,0 +1,22 @@
+﻿@model WebQuanLySanPhamKhoHang.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Edit User Role";
+}
+
+<h2>Edit User Role</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="SelectedRole">Selected Role:</label>
+        <select class="form-control" id="SelectedRole" name="selectedRoleName">
+            @foreach (var role in ViewBag.Roles)
+            {
+                <option value="@role.Value">@role.Text</option>
+            }
+        </select>
+        <input type="hidden" name="email" value="@Model.Email" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>Hủy</a>
+</form>
+

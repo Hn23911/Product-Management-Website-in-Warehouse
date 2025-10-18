@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebQuanLySanPhamKhoHang.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebQuanLySanPhamKhoHang.2og6vy0z34.bundle.scp.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\styles.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\Admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\scripts.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\css\\styles.css",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\css\\styles.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\DashBoard_sb\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\DashBoard_sb\\js\\scripts.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\css\\general.css",
+      "PackagePath": "staticwebassets\\css\\general.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\000-88f51c4a-6eeb-40dd-8375-bb6bd743cb0d.jpg",
+      "PackagePath": "staticwebassets\\images\\000-88f51c4a-6eeb-40dd-8375-bb6bd743cb0d.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\2-shutterstock_1490959715_VnEx_mobile_600x0.jpg",
+      "PackagePath": "staticwebassets\\images\\2-shutterstock_1490959715_VnEx_mobile_600x0.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\23d77e60-38f5-4e61-a0ed-379e8dee95c2.jpeg",
+      "PackagePath": "staticwebassets\\images\\23d77e60-38f5-4e61-a0ed-379e8dee95c2.jpeg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\2707banhxeo.jpg",
+      "PackagePath": "staticwebassets\\images\\2707banhxeo.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\3.htm",
+      "PackagePath": "staticwebassets\\images\\3.htm"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\9d151c36-9fa7-494d-b104-24cc17952687.jpeg",
+      "PackagePath": "staticwebassets\\images\\9d151c36-9fa7-494d-b104-24cc17952687.jpeg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\HondaVision1102023TheThao1jpg-1680509381.jpg",
+      "PackagePath": "staticwebassets\\images\\HondaVision1102023TheThao1jpg-1680509381.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book1.jpg",
+      "PackagePath": "staticwebassets\\images\\book1.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book10.jpg",
+      "PackagePath": "staticwebassets\\images\\book10.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book2.jpg",
+      "PackagePath": "staticwebassets\\images\\book2.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book3.jpg",
+      "PackagePath": "staticwebassets\\images\\book3.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book4.jpg",
+      "PackagePath": "staticwebassets\\images\\book4.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book6.jpg",
+      "PackagePath": "staticwebassets\\images\\book6.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book8.jpg",
+      "PackagePath": "staticwebassets\\images\\book8.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\book9.png",
+      "PackagePath": "staticwebassets\\images\\book9.png"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\d9ddac857ead40b4a838ff17830c6e28.jpg",
+      "PackagePath": "staticwebassets\\images\\d9ddac857ead40b4a838ff17830c6e28.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\db3489e1-5697-4caa-8efb-dd89fe28fd1a.jpeg",
+      "PackagePath": "staticwebassets\\images\\db3489e1-5697-4caa-8efb-dd89fe28fd1a.jpeg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\evpqaxnvn1-01-s.jpg",
+      "PackagePath": "staticwebassets\\images\\evpqaxnvn1-01-s.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f11.png",
+      "PackagePath": "staticwebassets\\images\\f11.png"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f122.jpg",
+      "PackagePath": "staticwebassets\\images\\f122.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f13.jpeg",
+      "PackagePath": "staticwebassets\\images\\f13.jpeg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f15.jpg",
+      "PackagePath": "staticwebassets\\images\\f15.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f3.png",
+      "PackagePath": "staticwebassets\\images\\f3.png"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f5.png",
+      "PackagePath": "staticwebassets\\images\\f5.png"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\f7.png",
+      "PackagePath": "staticwebassets\\images\\f7.png"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\fe93a1a870d68288dbc7-6191.jpg",
+      "PackagePath": "staticwebassets\\images\\fe93a1a870d68288dbc7-6191.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\images.jpeg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\kcn-pink.jpg",
+      "PackagePath": "staticwebassets\\images\\kcn-pink.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\kem-chong-nang-ProSun-SPF-50.jpg",
+      "PackagePath": "staticwebassets\\images\\kem-chong-nang-ProSun-SPF-50.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\nuoc-chanh1-16521101548871034599330.jpg",
+      "PackagePath": "staticwebassets\\images\\nuoc-chanh1-16521101548871034599330.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\quan-ao-thu-dong-nam-02.jpg",
+      "PackagePath": "staticwebassets\\images\\quan-ao-thu-dong-nam-02.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\shutterstock236802922-1-1536x864-16895870716532094532877.jpg",
+      "PackagePath": "staticwebassets\\images\\shutterstock236802922-1-1536x864-16895870716532094532877.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\son-moi-living-nature-electric-coral-15-limited-edition-lipstick-9.jpg",
+      "PackagePath": "staticwebassets\\images\\son-moi-living-nature-electric-coral-15-limited-edition-lipstick-9.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\son_mac_646_marrakesh_ebb438c3e6a94f508dfbf83e90929263_1024x1024.jpg",
+      "PackagePath": "staticwebassets\\images\\son_mac_646_marrakesh_ebb438c3e6a94f508dfbf83e90929263_1024x1024.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\top-5-loai-nuoc-uong-tot-cho-co-the-vao-mua-he-2.jpg",
+      "PackagePath": "staticwebassets\\images\\top-5-loai-nuoc-uong-tot-cho-co-the-vao-mua-he-2.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\tra-sua-ha-noi-1_1698327337.jpg",
+      "PackagePath": "staticwebassets\\images\\tra-sua-ha-noi-1_1698327337.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\tu-quan-ao-ap-tran-2110.jpg",
+      "PackagePath": "staticwebassets\\images\\tu-quan-ao-ap-tran-2110.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\images\\unnamed.jpg",
+      "PackagePath": "staticwebassets\\images\\unnamed.jpg"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "K:\\brr\\DACS\\WebQuanLySanPhamKhoHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebQuanLySanPhamKhoHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebQuanLySanPhamKhoHang.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebQuanLySanPhamKhoHang.props",
+      "PackagePath": "build\\WebQuanLySanPhamKhoHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebQuanLySanPhamKhoHang.props",
+      "PackagePath": "buildMultiTargeting\\WebQuanLySanPhamKhoHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebQuanLySanPhamKhoHang.props",
+      "PackagePath": "buildTransitive\\WebQuanLySanPhamKhoHang.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

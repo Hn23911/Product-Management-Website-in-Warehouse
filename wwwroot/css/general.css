@@ -1,0 +1,8 @@
+﻿.button-container {
+    display: flex;
+    gap: 10px
+}
+table tr.table-orange {
+    background-color: #FFDAB9 !important;
+    color: black !important;
+}

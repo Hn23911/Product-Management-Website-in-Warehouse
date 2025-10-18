@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link href="~/css/general.css" rel="stylesheet" />
+
+<div class="button-container">
+    @* <a asp-action="Add"> *@
+    @*     <button type="submit" class="btn btn-outline-primary">Thêm sản phẩm</button> *@
+    @* </a> *@
+
+    <div class="container">
+        <vc:search-bar search-pager="@ViewBag.SearchPager"></vc:search-bar>
+    </div>
+</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã sản phẩm</th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">Sản phẩm</a>
+            </th>
+            <th>SL</th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["PriceSortParm"]">Đơn giá</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateInSortParm"]">Ngày nhập kho</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["MFGSortParm"]">NSX</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["EXPSortParm"]">HSD</a>
+            </th>
+            <th>Trạng thái</th>
+            <th>Danh mục</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr class="@(product.Status == "!!!" ? "table-danger" : (product.Status == "Hết hàng" ? "table-warning" : (product.Status == "Hết hạn" ? "table-orange" : "")))">
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Quantity</td>
+                <td>@product.Price</td>
+                <td>@product.DateIn</td>
+                <td>@product.MFG</td>
+                <td>@product.EXP</td>
+                <td>@product.Status</td>
+                <td>@product.Category?.Name</td>
+                <td>
+                    <div class="button-container">
+                        <a asp-action="Display" asp-route-id="@product.Id">
+                            <button type="submit" class="btn btn-success">Chi tiết</button>
+                        </a>
+
+                        @* <a asp-action="Update" asp-route-id="@product.Id"> *@
+                        @*     <button type="submit" class="btn btn-warning">Sửa</button> *@
+                        @* </a> *@
+
+                        @* <a asp-action="Delete" asp-route-id="@product.Id"> *@
+                        @*     <button type="submit" class="btn btn-danger">Xóa</button> *@
+                        @* </a> *@
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "productsByCategories";
+    Layout = "~/Areas/Employee/Views/Shared/_LayoutEmployee.cshtml";
+}
+
+<link href="~/css/general.css" rel="stylesheet" />
+
+<div class="button-container">
+    <a asp-action="Add">
+        <button type="submit" class="btn btn-outline-primary">Thêm sản phẩm</button>
+    </a>
+
+    <div class="container">
+        <vc:search-bar search-pager="@ViewBag.SearchPager"></vc:search-bar>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã sản phẩm</th>
+            <th>Sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Đơn giá</th>
+            <th>Ngày nhập kho</th>
+            <th>NSX</th>
+            <th>HSD</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Quantity</td>
+                <td>@product.Price</td>
+                <td>@product.DateIn</td>
+                <td>@product.MFG</td>
+                <td>@product.EXP</td>
+                <td>
+                    <div class="button-container">
+                        <a asp-action="Display" asp-route-id="@product.Id">
+                            <button type="submit" class="btn btn-success">Chi tiết</button>
+                        </a>
+
+                        <a asp-action="Update" asp-route-id="@product.Id">
+                            <button type="submit" class="btn btn-warning">Sửa</button>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

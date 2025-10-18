@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebQuanLySanPhamKhoHang</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebQuanLySanPhamKhoHang.styles.css" asp-append-version="true" />
+    <style>
+        /* Custom styles with light yellow as primary color */
+        body {
+            padding-top: 56px; /* Space for fixed navbar */
+        }
+        .navbar {
+            background-color: #fff8dc; /* Light yellow background */
+            border-bottom: 1px solid #f1c40f; /* Light yellow border */
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #d4ac0d; /* Darker yellow for brand */
+        }
+        .nav-link {
+            color: #d4ac0d !important; /* Darker yellow for links */
+        }
+        .navbar-toggler {
+            border-color: #d4ac0d; /* Yellow border for toggler */
+        }
+        .jumbotron {
+            background-color: #fff8dc; /* Light yellow background */
+            padding: 2rem 1rem;
+            border: 1px solid #f1c40f; /* Light yellow border */
+        }
+        .footer {
+            padding: 20px 0;
+            background-color: #fff8dc; /* Light yellow background */
+            border-top: 1px solid #f1c40f; /* Light yellow border */
+        }
+        .btn-primary {
+            background-color: #f1c40f; /* Primary button color */
+            border-color: #f1c40f;
+        }
+        .btn-secondary {
+            background-color: #d4ac0d; /* Secondary button color */
+            border-color: #d4ac0d;
+        }
+        .page-link {
+            color: #d4ac0d !important; /* Page links in yellow */
+        }
+        .page-item.active .page-link {
+            background-color: #d4ac0d !important;
+            border-color: #d4ac0d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <partial name="_LoginPartial" />
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="footer text-muted">
+        <div class="container text-center">
+            &copy; 2024 - nhom 6 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

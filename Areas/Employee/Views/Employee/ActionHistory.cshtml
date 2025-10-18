@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ActionHistory>
+
+<h2>Lịch sử hành động</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Loại hành động</th>
+            <th>Sản phẩm</th>
+            <th>Người thực hiện</th>
+            <th>Ngày thực hiện</th>
+            @* <th>Ghi chú</th> *@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var history in Model)
+        {
+            <tr>
+                <td>@history.ActionType</td>
+                <td>@history.ProductName</td>
+                <td>@history.UserId</td>
+                <td>@history.ActionDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+            </tr>
+        }
+    </tbody>
+</table>
